@@ -19,6 +19,19 @@ const logos = [
 const HomeSection4 = () => {
   return (
     <section className={styles.section}>
+      <div className={styles.headerBlock}>
+        <h2 className={styles.sectionHeadline}>
+          Built for the Industry You Want to Work In
+        </h2>
+        <p className={styles.sectionSubtext}>
+          Our training is aligned with the creative workflows, tools, and expectations followed <br />
+          by leading global companies across media, entertainment, and technology.
+        </p>
+        <div className={styles.logoContextLine}>
+          Inspired by industry standards used across top global brands
+        </div>
+      </div>
+
       {/* Row 1 : right -> left */}
       <div className={styles.logos}>
         <div className={styles.logo_items}>
